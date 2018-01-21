@@ -4,8 +4,8 @@ class Driver {
     this.date = date;
   }
 
-  startDate() {
-    console.log(`Hello, my name is ${this.name}`);
+  startDate(date) {
+    return date.Date();
   }
 
   yearsExperienceFromBeginningOf() {
