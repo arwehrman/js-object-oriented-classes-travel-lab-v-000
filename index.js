@@ -4,11 +4,7 @@ class Driver {
     this.startDate = new Date(startDate);
   }
 
-  startDate(date) {
-    return date.Date();
-  }
-
-  yearsExperienceFromBeginningOf() {
-    
+  yearsExperienceFromBeginningOf(endDate) {
+    return endDate - this.startDate.getUTCFullYear() -1
   }
 }
