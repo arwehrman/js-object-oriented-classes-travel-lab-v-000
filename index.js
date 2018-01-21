@@ -21,8 +21,8 @@ class Route {
 		return horizontalDistance + verticalDistance;
   }
 
-  estimatedTime(peakHours) {
-    if (peakHours) {
+  estimatedTime(peakHrs) {
+    if (peakHrs) {
       return this.blocksTravelled() / 2;
     } else {
       return this.blocksTravelled() / 3;
